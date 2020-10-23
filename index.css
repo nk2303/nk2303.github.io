@@ -3,7 +3,7 @@
   --main-white: #f0f0f0;
   --main-red: #be3144;
   --main-blue: #45567d;
-  --main-gray: #303841;
+  --main-gray: #111111;
 }
 
 /* Base reset */
@@ -26,7 +26,7 @@ html {
    * default document font size = 16px, 1rem = 16px, 100% = 16px
    * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
   */
-  font-size: 62.5%;
+  font-size: 50%;
   scroll-behavior: smooth;
 }
 
@@ -69,7 +69,7 @@ html {
 /* Base styles */
 
 body {
-  font-family: "Roboto Mono",monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
@@ -78,7 +78,6 @@ body {
 
 h1,
 h2 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-align: center;
 }
@@ -114,7 +113,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--main-red);
+  background: black;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
