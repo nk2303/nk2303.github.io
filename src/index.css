@@ -13,7 +13,7 @@
   padding: 0;
 }
 
-.App-header {
+.App-body {
   background-color: var(--main-gray);
   min-height: 100vh;
   display: flex;
