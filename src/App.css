@@ -1,6 +1,20 @@
+/* Custom properties/variables  */
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #111111;
+  --minor-gray: #AEAEAE;
+}
+
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--main-gray);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,7 +59,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--main-white);
+  color: var(--minor-gray);
 }
 
 img {
